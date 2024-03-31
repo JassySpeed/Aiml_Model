@@ -66,4 +66,4 @@ predictions = predict(random_data, weights)
 # Output predictions
 print("Predictions on random data points:")
 for random_data, predictions in enumerate(predictions):
-    print(f"Data Point {random_data}: {predictions} with {random_d}")
+    print(f"Data Point {random_data}: {predictions}")
